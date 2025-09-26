@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botanimb | Página Oficial</title>
+  <style>
+    /* Estilos generales */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #fffdf7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1c6650, #e61515);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffe680;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #ff6633;
+      text-align: center;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .productos {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #fff;
+      border: 2px solid #ffcc00;
+      border-radius: 15px;
+      width: 280px;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍃 Botanimb</h1>
+    <p>Snacks saludables que nutren tu cuerpo y cuidan el planeta</p>
+    <nav>
+      <a href="#nosotros">Sobre Nosotros</a>
+      <a href="#productos">Nuestros Productos</a>
+      <a href="#innovacion">Innovación</a>
+      <a href="#logros">Logros</a>
+    </nav>
+  </header>
+
+  <section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>
+      En Botanimb creemos que la alimentación saludable puede ser deliciosa, práctica y sostenible. 
+      Nuestro objetivo es ofrecer snacks 100% naturales, hechos con frutas como mango y fresa, deshidratadas sin conservantes ni azúcares añadidos.
+    </p>
+  </section>
+
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="productos">
+      <div class="card">
+        <img src="mango.jpg" alt="Chips de Mango">
+        <h3>Chips de Mango</h3>
+        <p>Ricos en vitamina A y C, perfectos para meriendas escolares y familiares.</p>
+      </div>
+      <div class="card">
+        <img src="fresa.jpg" alt="Chips de Fresa">
+        <h3>Chips de Fresa</h3>
+        <p>Una opción llena de antioxidantes y fibra, para un estilo de vida natural y energético.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="innovacion">
+    <h2>Nuestro Valor Innovador</h2>
+    <p>
+      Botanimb no es solo un snack: es una propuesta innovadora que combina salud, sostenibilidad y educación. 
+      Utilizamos empaques biodegradables, trabajamos con productores locales y añadimos mensajes educativos en cada kit para fomentar buenos hábitos de nutrición. 
+    </p>
+  </section>
+
+<section id="logros">
+  <h2>Feria</h2>
+  <div style="text-align:center;">
+    <img src="feria.jpg" alt="Feria Risaralda me encanta SENA 2025" style="max-width:500px; width:100%; height:auto; border-radius:12px; margin-bottom:15px;">
+    <p><strong>Risaralda me encanta – SENA 2025</strong></p>
+    <p>
+      En el mes de septiembre tuvimos la oportunidad de participar en la feria 
+      <em>“Risaralda me encanta – SENA 2025”</em>, donde presentamos nuestro proyecto 
+      <strong>Botanimb</strong>. Allí compartimos nuestra propuesta de snacks saludables 
+      a base de frutas deshidratadas y dimos a conocer sus beneficios en nutrición, 
+      sostenibilidad y educación alimentaria. 
+    </p>
+  </div>
+</section>
+
+  
+  <footer>
+    <p>&copy; 2025 Botanimb | Síguenos en redes sociales</p>
+    <a href="https://www.instagram.com/botanimboficial" target="_blank">Instagram</a> | 
+    <a href="#">TikTok</a> | 
+    <a href="#">Facebook</a>
+  </footer>
+</body>
+</html>
